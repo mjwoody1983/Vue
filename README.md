@@ -1,4 +1,16 @@
 # uidemo
+##
+Repository for useful Vue functionality. Project currently contains the following:
+* Vuetify
+* Router
+* Store
+* Components
+* Switch
+  * Switch within a table
+* Checkbox
+  * Checkbox within a table.
+
+
 
 ## Project setup
 ```
