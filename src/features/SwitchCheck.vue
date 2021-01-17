@@ -1,13 +1,9 @@
 <template>
   <v-container
-      class="px-0"
+      class="pa-10"
       fluid
+
   >
-    <v-switch
-        v-model="listItems.switch"
-        :label="`Switch 1: ${listItems[0].switch.toString()}`"
-        @click="details(listItems[0].label, !listItems[0].switch)"
-    ></v-switch>
 
     <v-data-table
         :headers="headers"
@@ -19,7 +15,7 @@
       <template slot="item.switch" slot-scope="{ item }">
         <v-switch
             v-model="item.switch"
-            @click="details(item.label, item.switch)"
+            @click="details(item.label, !item.switch)"
         ></v-switch>
       </template>
 
