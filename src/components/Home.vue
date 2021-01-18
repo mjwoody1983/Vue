@@ -36,14 +36,14 @@ export default {
     return {
       listItems: [
         {id: 1, name: 'Switches, Checkboxes and Table', sub: 'Switch and a Checkbox nested in a table', _lnk: 'switch_check'},
-        {id: 2, name: 'Alerts', sub: 'Alert subtitle'},
-        {id: 3, name: 'Avatars and Badges', sub: 'Avatar and Badges subtitle'},
-        {id: 4, name: 'Banners'},
-        {id: 5, name: 'Bottom Navigation'},
-        {id: 6, name: 'Calendars'},
-        {id: 7, name: 'Cards'},
-        {id: 8, name: 'Carousels'},
-        {id: 9, name: 'Form Inputs & Controls'}
+        {id: 2, name: 'Alerts', sub: 'Alert subtitle', _lnk: 'alerts'},
+        {id: 3, name: 'Avatars and Badges', sub: 'Avatar and Badges subtitle', _lnk: 'avatar_badges'},
+        {id: 4, name: 'Banners', _lnk: 'banners'},
+        {id: 5, name: 'Bottom Navigation', _lnk: 'bottom_navigation'},
+        {id: 6, name: 'Calendars', _lnk: 'calendar'},
+        {id: 7, name: 'Cards', _lnk: 'cards'},
+        {id: 8, name: 'Carousels', _lnk: 'carousels'},
+        {id: 9, name: 'Form Inputs & Controls', _lnk: 'forms_inputs'}
       ]
     }
   }

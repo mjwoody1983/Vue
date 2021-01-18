@@ -14,8 +14,8 @@
 
       <template slot="item.switch" slot-scope="{ item }">
         <v-switch
-            v-model="item.switch"
-            @click="details(item.label, !item.switch)"
+            v-model="item._switch"
+            @click="details_switch(item.label, !item._switch)"
         ></v-switch>
       </template>
 
@@ -33,14 +33,14 @@
 
 <script>
 export default {
-  name: "Switch",
+  name: "SwitchCheck",
   data () {
     return {
       switch1: true,
       listItems: [
-        {label: 0,switch: false, x_t: false},
-        {label: 1,switch: true, x_t: false},
-        {label: 2,switch: true, x_t: false}
+        {label: 0,_switch: false, x_t: false},
+        {label: 1,_switch: true, x_t: false},
+        {label: 2,_switch: true, x_t: false}
       ],
       headers: [
         {text: 'Label', sortable: false, value: 'label'},
@@ -53,6 +53,10 @@ export default {
     details(i) {
       //this.listItems[i].switch = itemUpdate
       console.log('After...', this.listItems[i].x_t)
+    },
+    details_switch(i) {
+      //this.listItems[i].switch = itemUpdate
+      console.log('After...', this.listItems[i]._switch)
     }
   }
 }

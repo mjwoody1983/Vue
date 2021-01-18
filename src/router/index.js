@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 import Home from "@/components/Home";
 import Switch from "@/features/SwitchCheck";
+import BottomNav from "@/features/BottomNav";
 
 Vue.use(VueRouter)
 
@@ -16,6 +17,11 @@ const routes = [
     path: '/switch_check',
     name: 'switch_check',
     component: Switch
+  },
+  {
+    path: '/bottom_navigation',
+    name: 'bottom_navigation',
+    component: BottomNav
   }
 ]
 
