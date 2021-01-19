@@ -36,7 +36,7 @@ export default {
     return {
       listItems: [
         {id: 1, name: 'Switches, Checkboxes and Table', sub: 'Switch and a Checkbox nested in a table', _lnk: 'switch_check'},
-        {id: 2, name: 'Alerts', sub: 'Alert subtitle', _lnk: 'alerts'},
+        {id: 2, name: 'Alerts', sub: 'Alert subtitle', _lnk: 'alert_message'},
         {id: 3, name: 'Avatars and Badges', sub: 'Avatar and Badges subtitle', _lnk: 'avatar_badges'},
         {id: 4, name: 'Banners', _lnk: 'banners'},
         {id: 5, name: 'Bottom Navigation', _lnk: 'bottom_navigation'},
