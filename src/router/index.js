@@ -5,6 +5,7 @@ import Home from "@/components/Home";
 import Switch from "@/features/SwitchCheck";
 import BottomNav from "@/features/BottomNav";
 import AlertMessage from "@/features/AlertMessage";
+import AvatarBadges from "@/features/AvatarBadges";
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ const routes = [
     path: '/alert_message',
     name: 'alert_message',
     component: AlertMessage
+  },
+  {
+    path: '/avatar_badges',
+    name: 'avatar_badges',
+    component: AvatarBadges
   }
 
 ]
