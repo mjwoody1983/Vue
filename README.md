@@ -9,6 +9,15 @@ Repository for useful Vue functionality. Project currently contains the followin
   * Switch within a table
 * Checkbox
   * Checkbox within a table.
+* Table
+* Alerts
+* Avatars and Badges
+* Banners
+* Bottom Navigation
+* Calendars
+* Cards
+* Carousels
+* Form Inputs and Controls
 
 
 
