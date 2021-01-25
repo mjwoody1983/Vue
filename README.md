@@ -10,6 +10,7 @@ Repository for useful Vue functionality. Project currently contains the followin
 * Checkbox
   * Checkbox within a table.
 * Table
+* Calendars
 * Alerts
 * Avatars and Badges
 * Banners
