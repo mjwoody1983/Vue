@@ -6,6 +6,7 @@ import Switch from "@/features/SwitchCheck";
 import BottomNav from "@/features/BottomNav";
 import AlertMessage from "@/features/AlertMessage";
 import AvatarBadges from "@/features/AvatarBadges";
+import CalendarOrg from "@/features/CalendarOrg";
 
 Vue.use(VueRouter)
 
@@ -34,7 +35,12 @@ const routes = [
     path: '/avatar_badges',
     name: 'avatar_badges',
     component: AvatarBadges
-  }
+  },
+  {
+    path: '/calendar_org',
+    name: 'calendar_org',
+    component: CalendarOrg
+  },
 
 ]
 
