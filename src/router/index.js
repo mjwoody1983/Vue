@@ -7,6 +7,7 @@ import BottomNav from "@/features/BottomNav";
 import AlertMessage from "@/features/AlertMessage";
 import AvatarBadges from "@/features/AvatarBadges";
 import CalendarOrg from "@/features/CalendarOrg";
+import banner_feature from "@/features/banner_feature";
 
 Vue.use(VueRouter)
 
@@ -40,6 +41,11 @@ const routes = [
     path: '/calendar_org',
     name: 'calendar_org',
     component: CalendarOrg
+  },
+  {
+    path: '/banners_feature',
+    name: 'banners_feature',
+    component: banner_feature
   },
 
 ]

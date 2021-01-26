@@ -38,7 +38,7 @@ export default {
         {id: 1, name: 'Switches, Checkboxes and Table', sub: 'Switch and a Checkbox nested in a table', _lnk: 'switch_check'},
         {id: 2, name: 'Alerts', sub: 'Alert subtitle', _lnk: 'alert_message'},
         {id: 3, name: 'Avatars and Badges', sub: 'Avatar and Badges subtitle', _lnk: 'avatar_badges'},
-        {id: 4, name: 'Banners', _lnk: 'banners'},
+        {id: 4, name: 'Banners', _lnk: 'banners_feature'},
         {id: 5, name: 'Bottom Navigation', _lnk: 'bottom_navigation'},
         {id: 6, name: 'Calendars', _lnk: 'calendar_org'},
         {id: 7, name: 'Cards', _lnk: 'cards'},
