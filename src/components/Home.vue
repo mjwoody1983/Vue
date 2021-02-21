@@ -41,7 +41,7 @@ export default {
         {id: 4, name: 'Banners', _lnk: 'banners_feature'},
         {id: 5, name: 'Bottom Navigation', _lnk: 'bottom_navigation'},
         {id: 6, name: 'Calendars', _lnk: 'calendar_org'},
-        {id: 7, name: 'Cards', _lnk: 'cards'},
+        {id: 7, name: 'Cards', sub: 'Card Template', _lnk: 'card_feature'},
         {id: 8, name: 'Carousels', _lnk: 'carousels'},
         {id: 9, name: 'Form Inputs & Controls', _lnk: 'forms_inputs'}
       ]

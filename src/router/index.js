@@ -8,6 +8,7 @@ import AlertMessage from "@/features/AlertMessage";
 import AvatarBadges from "@/features/AvatarBadges";
 import CalendarOrg from "@/features/CalendarOrg";
 import banner_feature from "@/features/banner_feature";
+import CardFeature from "@/features/CardFeature";
 
 Vue.use(VueRouter)
 
@@ -47,6 +48,12 @@ const routes = [
     name: 'banners_feature',
     component: banner_feature
   },
+  {
+    path: '/card_feature',
+    name: 'card_feature',
+    component: CardFeature
+
+  }
 
 ]
 
